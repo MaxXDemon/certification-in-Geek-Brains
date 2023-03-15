@@ -46,7 +46,6 @@ img {
 .header-navigation {
     display: flex;
     gap: 36px;
-
 }
 
 .header-navigation a {
@@ -95,11 +94,9 @@ img {
 
 .main-background-img {
     background-image: url('./img/background-top.png');
-
     background-repeat: no-repeat;
     max-height: 815px;
     background-position: bottom;
-    /* background-attachment: fixed; */
     padding-bottom: 96px;
 }
 
@@ -111,45 +108,19 @@ img {
     display: none;
 }
 
-/* .main {
-    position: relative;
-} */
-
 .main__top-block {
-    /* padding-top: 74px;
-    padding-bottom: 78px;
-    display: flex;
-    justify-content: flex-start;
-    gap: 81px;
-    overflow: hidden;
-    position: relative; */
-
-    padding-top: 71px;
+    padding-top: 50px;
     padding-bottom: 60px;
     display: flex;
     align-items: center;
-    /* column-gap: 81px; */
     padding-left: calc((100% - 1210px) / 2 + 15px);
     overflow-x: hidden;
-
 }
 
 .main__top-block__content {
-    /* padding-left: calc((100vw - 1180px)/2);
-    padding-right: calc((100vw - 1180px)/2 + 630px); */
-    /* max-width: 760px; */
-    /* left: calc((100vw - 1180px)/2); */
-    /* top: 242px; */
-
-    /* padding-top: 78px;
-    max-width: 550px;
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: column; */
     max-width: 550px;
     flex-shrink: 0;
     margin-bottom: 78px;
-
 }
 
 .main__top-block__content__h1 {
@@ -177,7 +148,6 @@ img {
 }
 
 .btn {
-
     display: inline-block;
     max-height: 50px;
     width: 238px;
@@ -186,7 +156,6 @@ img {
     font-size: 16px;
     line-height: 50px;
     color: #fff;
-
     transition: background 0.3s ease-in, color 0.3s ease-in;
 }
 
@@ -205,21 +174,15 @@ img {
 }
 
 .main__top-block__img-block {
-    /* position: absolute;
-    left: calc((100vw - 1180px)/2 + 630px);
-    overflow: hidden; */
-
     position: relative;
     flex-shrink: 0;
     margin-left: 68px;
 }
 
 .main__top-block__img {
-
     width: 873px;
     height: auto;
 }
-
 
 .features {
     padding-top: 38px;
@@ -306,18 +269,9 @@ img {
     gap: 100px;
 }
 
-/* .automated__row+.automated__row {
-    margin-top: 120px;
-} */
-
 .automated__row:nth-child(even) {
     flex-direction: row-reverse;
 }
-
-/* .automated__column {
-    width: 480px; 
-    flex-shrink: 0;
-} */
 
 .automated__column-title {
     margin-bottom: 30px;
@@ -337,7 +291,7 @@ img {
     background-image: url("./img/price-bg.png");
     background-repeat: no-repeat;
     background-size: cover;
-    /* height: 1086px; */
+    padding-bottom: 158px;
 }
 
 .price__top {
@@ -362,7 +316,7 @@ img {
 }
 
 .card {
-    width: 340px;
+    max-width: 340px;
     background-color: #0f1f4b;
     box-shadow: 0px 18px 50px -15px rgba(25, 42, 89, 0.2);
     border-radius: 30px;
@@ -435,7 +389,8 @@ img {
 }
 
 .companies {
-    padding-top: 109px;
+    padding-top: 141px;
+    padding-bottom: 120px;
     max-width: 962px;
     margin: 0 auto;
 }
@@ -537,8 +492,6 @@ img {
     padding: 32px 40.5px;
     width: 428px;
     background-color: #fff;
-    /* box-shadow: 4px 4px 12px rgba(137, 137, 162, 0.122);
-    border-radius: 8px; */
 }
 
 .companies__column-title {
@@ -694,26 +647,14 @@ img {
     gap: 40px;
 }
 
-/* .footer__social-item+.footer__social-item {
-    margin-left: 20px;
-} */
-
 .footer__social-link {
     fill: #8794ba;
-    /* border-radius: 8px;
-    padding-left: 14px;
-    padding-right: 14px;
-    padding-top: 10px;
-    padding-bottom: 6px; */
     background-color: transparent;
-
     transition: fill 0.3s ease-in, background-color 0.3s ease-in;
 }
 
 .footer__social-link:hover {
     fill: #ef2a82;
-    ;
-
 }
 
 @media (max-width: 376px) {
@@ -758,7 +699,6 @@ img {
         background-image: url('./img/background-top-mobile.png');
         background-repeat: no-repeat;
         background-position: bottom;
-
         padding-top: 29px;
         padding-bottom: 128px;
         display: flex;
@@ -766,7 +706,6 @@ img {
         flex-direction: column;
         gap: 0px;
         position: relative;
-
     }
 
     .main__top-block__img-block {
@@ -874,7 +813,6 @@ img {
     }
 
     .automated__row {
-
         gap: 30px;
         flex-direction: column;
     }
@@ -884,7 +822,6 @@ img {
     }
 
     .automated-content {
-
         gap: 60px;
     }
 
@@ -927,7 +864,6 @@ img {
         background-repeat: no-repeat;
         background-size: cover;
         background-position: top;
-        /* max-height: 857px; */
         overflow: hidden;
         padding-bottom: 200px;
     }
@@ -997,12 +933,6 @@ img {
 
     .footer__row {
         padding: 36px 0px 36px 0px;
-
         justify-content: space-between;
-
-
     }
-
-
-
 }
